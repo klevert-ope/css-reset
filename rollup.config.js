@@ -6,7 +6,7 @@ export default {
 	output: {
 		file: 'dist/cssreset.js',
 		format: 'umd',
-		name: 'css-resetter',
+		name: 'baseline-css-reset',
 	},
 	plugins: [
 		postcss({

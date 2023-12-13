@@ -1,5 +1,5 @@
 {
-  "name": "css-resetter",
+  "name": "baseline-css-reset",
   "version": "1.0.0",
   "description": "CSS reset to override default styles in all browsers.",
   "main": "dist/cssreset.js",

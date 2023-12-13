@@ -1,17 +1,17 @@
-# css-reset
+# css reset
 
-`css-resetter` is for overriding default styles in all browsers.
+`baseline-css-reset` is for overriding default styles in all browsers.
 
 Install the package using npm:
 
 ```bash
-npm install css-resetter
+npm install baseline-css-reset
 ```
 
 ## Usage
 
 ```css
 /*global.css*/
-@import 'css-resetter/dist/cssreset.css';
+@import 'baseline-css-reset/dist/cssreset.css';
 
 ```
