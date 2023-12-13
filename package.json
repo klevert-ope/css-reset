@@ -1,0 +1,32 @@
+{
+  "name": "css-reset",
+  "version": "1.0.0",
+  "description": "CSS reset to override default styles in all browsers.",
+  "main": "dist/cssreset.js",
+  "style": "dist/cssreset.css",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klevert-ope/css-reset.git"
+  },
+  "keywords": [
+    "css",
+    "resetcss",
+    "normalise"
+  ],
+  "author": "Klevert Opee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klevert-ope/css-reset/issues"
+  },
+  "homepage": "https://github.com/klevert-ope/css-reset#readme",
+  "devDependencies": {
+    "rollup": "^4.9.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
